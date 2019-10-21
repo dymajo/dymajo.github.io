@@ -1,0 +1,34 @@
+$header-height: 38px;
+
+.site-header {
+  border-top-color: darkorange;
+  border-bottom: 0;
+  padding: 12px 0 6px;
+  min-height: 0;
+}
+
+.site-title {
+  font-weight: 800;
+  line-height: $header-height;
+  letter-spacing: 0;
+  color: #111;
+
+  &:visited {
+    color: #111;
+  }
+
+  svg {
+    vertical-align: top;
+    margin-left: -3px;
+    margin-right: 5px;
+  }
+}
+
+.site-nav {
+  line-height: $header-height;
+}
+
+
+.footer-heading {
+  visibility: hidden;
+}
