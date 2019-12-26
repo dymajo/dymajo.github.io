@@ -16,7 +16,7 @@
 title: DYMAJO
 email: hello@dymajo.com
 description: >- # this means to ignore newlines until "baseurl:"
-  We’re a software company based in Aotearoa, New Zealand. Proud to bring you Waka & Nitro.
+  We’re a software company based in Aotearoa, New Zealand. Proud to bring you Waka.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://dymajo.com # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dymajoltd
