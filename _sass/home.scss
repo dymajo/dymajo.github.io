@@ -13,7 +13,8 @@
   }
 }
 
-.dymajo-button, .dymajo-button:visited {
+.dymajo-button,
+.dymajo-button:visited {
   font-size: 1rem;
   background: darken(darkorange, 3%);
   color: #fff;
@@ -22,4 +23,11 @@
   margin: 0.25rem 0;
   display: inline-block;
   border-radius: 5px;
+  border: 0;
+  font-family: $base-font-family;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
